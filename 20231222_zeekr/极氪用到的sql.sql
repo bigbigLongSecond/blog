@@ -24,7 +24,7 @@ CREATE TABLE public.system_chat_file_wwc88cad11b766e051 (
 	seq int8 NULL,
 	file_name varchar(512) NULL, -- 文件名称
 	msg_time int8 NULL, -- 会话时间
-	sdk_file_id varchar(512) NULL, -- 媒体资源的id信息
+	sdk_file_id varchar NULL, -- 媒体资源的id信息
 	msg_type varchar(512) NULL, -- 会话类型
 	file_size int8 NULL, -- 文件大小，单位字节
 	file_ext varchar(512) NULL, -- 文件后缀

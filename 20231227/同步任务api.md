@@ -1,0 +1,6 @@
+## ka-scrm 
+
+手动同步通讯录
+```
+curl -XGET  "127.0.0.1:8899/api/compensate//sync/contact?day=7&tenantId=wwc88cad11b766e051" --header 'Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsb2dpblR5cGUiOiJsb2dpbiIsImxvZ2luSWQiOiJ3d2M4OGNhZDExYjc2NmUwNTE6d3djODhjYWQxMWI3NjZlMDUxIiwicm5TdHIiOiJER2kyV3N2ekJJaFJPYlJFYjNnVGxPREhrSms3MlluVSIsImxvZ2luVXNlciI6IntcImlzQWRtaW5cIjowLFwibG9naW5UeXBlXCI6XCJQQ1wiLFwic3VwcGVyXCI6dHJ1ZSxcInRlbmFudElkXCI6XCJ3d2M4OGNhZDExYjc2NmUwNTFcIixcInVzZXJJZFwiOlwid3djODhjYWQxMWI3NjZlMDUxXCIsXCJ2ZXJzaW9uXCI6XCIxXCJ9In0.Iq7aP4m3laygwWkX0hEVzafJmL1bUktEnJY2Gpuos5U' -H 'Content-Type:application/json'	
+```
